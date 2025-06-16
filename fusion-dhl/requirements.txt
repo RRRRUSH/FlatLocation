@@ -1,0 +1,12 @@
+numpy 
+scipy
+scikit-image
+h5py
+numpy-quaternion
+matplotlib
+tk
+tensorboardx
+torch
+torchvision
+utm
+geopy

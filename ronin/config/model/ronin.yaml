@@ -1,0 +1,13 @@
+model_params:
+  num_inputs: 6
+  num_outputs: 2
+  group_sizes: [ 2, 2, 2, 2 ]
+  base_plane: 64
+  block_type: BasicBlock1D
+  output_block: FCOutputModule
+  zero_init_residual: False
+  kernel_size: 3
+  fc_dim: 512
+  dropout: 0.5
+  in_dim: 7
+  trans_planes: 128

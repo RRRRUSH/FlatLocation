@@ -1,0 +1,5 @@
+{
+  "ronin_checkpoint": "ronin_resnet/checkpoint_gsn_latest.pt",
+  "floor_plan_dir": "floorplan",
+  "source_dir": "source"
+}

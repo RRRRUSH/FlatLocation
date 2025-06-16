@@ -1,0 +1,79 @@
+{
+  "datasets": {
+    "ronin": {
+      "train_list_path": "/data/data_lists/ronin/list_train.txt",
+      "val_list_path": "/data/data_lists/ronin/list_val.txt",
+      "test_list_path": "/data/data_lists/ronin/list_test_unseen.txt",
+      "train_dataset_path": "/data/imu_data/Ronin_data/train_data",
+      "val_dataset_path": "/data/imu_data/Ronin_data/seen_subjects_test_set",
+      "test_dataset_path": "/data/imu_data/Ronin_data/unseen_subjects_test_set",
+      "sequence_class": "RONINSequence"
+    },
+    "ridi": {
+      "train_list_path": "/data/data_lists/ridi/list_train_publish_v2.txt",
+      "val_list_path": "/data/data_lists/ridi/list_val_publish_v2.txt",
+      "test_list_path": "/data/data_lists/ridi/list_test_publish_v2.txt",
+      "train_dataset_path": "/data/imu_data/ridi_data_publish_v2/data_publish_v2",
+      "val_dataset_path": "/data/imu_data/ridi_data_publish_v2/data_publish_v2",
+      "test_dataset_path": "/data/imu_data/ridi_data_publish_v2/data_publish_v2",
+      "sequence_class": "RIDISequence"
+    },
+    "oxiod": {
+      "train_list_path": "/data/data_lists/oxiod/list_train_new.txt",
+      "val_list_path": "/data/data_lists/oxiod/list_val_new.txt",
+      "test_list_path": "/data/data_lists/oxiod/list_test_new.txt",
+      "train_dataset_path": "/data/imu_data/Oxford Inertial Odometry Dataset_2.0/Oxford Inertial Odometry Dataset/train",
+      "val_dataset_path": "/data/imu_data/Oxford Inertial Odometry Dataset_2.0/Oxford Inertial Odometry Dataset/validation",
+      "test_dataset_path": "/data/imu_data/Oxford Inertial Odometry Dataset_2.0/Oxford Inertial Odometry Dataset/test",
+      "sequence_class": "OXIODSequence"
+    },
+    "imunet": {
+      "train_list_path": "/data/data_lists/imunet/list_train.txt",
+      "val_list_path": "/data/data_lists/imunet/list_val.txt",
+      "test_list_path": "/data/data_lists/imunet/list_test.txt",
+      "train_dataset_path": "/data/imu_data/IMUNet_dataset",
+      "val_dataset_path": "/data/imu_data/IMUNet_dataset",
+      "test_dataset_path": "/data/imu_data/IMUNet_dataset",
+      "sequence_class": "RIDISequence"
+    },
+    "tlio": {
+      "train_list_path": "/data/data_lists/tlio/list_train.txt",
+      "val_list_path": "/data/data_lists/tlio/list_val.txt",
+      "test_list_path": "/data/data_lists/tlio/list_test.txt",
+      "train_dataset_path": "/data/imu_data/TLIO",
+      "val_dataset_path": "/data/imu_data/TLIO",
+      "test_dataset_path": "/data/imu_data/TLIO",
+      "sequence_class": "TLIOSequence"
+    },
+    "bodydata": {
+      "train_list_path": "/data/data_lists/tlio/train_list.txt",
+      "val_list_path": "/data/data_lists/tlio/val_list.txt",
+      "test_list_path": "/data/data_lists/tlio/test_list.txt",
+      "train_dataset_path": "/data/imu_data/vr_body_20250324",
+      "val_dataset_path": "/data/imu_data/vr_body_20250324",
+      "test_dataset_path": "/data/imu_data/vr_body_20250324",
+      "sequence_class": "stepsequence"
+    },
+    "test": {
+      "train_list_path": "E:\\HaozhanLi\\Project\\FlatLoc\\ronin\\Datasets\\left_breast0227\\train_list.txt",
+      "val_list_path": "E:\\HaozhanLi\\Project\\FlatLoc\\ronin\\Datasets\\left_breast0227\\val_list.txt",
+      "test_list_path": "E:\\HaozhanLi\\Project\\FlatLoc\\ronin\\Datasets\\left_breast0227\\test_list.txt",
+      "train_dataset_path": "E:\\HaozhanLi\\Project\\FlatLoc\\ronin\\Datasets\\left_breast0227",
+      "val_dataset_path": "E:\\HaozhanLi\\Project\\FlatLoc\\ronin\\Datasets\\left_breast0227",
+      "test_dataset_path": "E:\\HaozhanLi\\Project\\FlatLoc\\ronin\\Datasets\\left_breast0227",
+      "sequence_class": "stepsequence"
+    }
+
+  },
+  "selected_datasets": [
+    "test"
+  ],
+  "all_dataset": [
+    "ronin",
+    "ridi",
+    "oxiod",
+    "imunet",
+    "tlio",
+    "bodydata"
+  ]
+}

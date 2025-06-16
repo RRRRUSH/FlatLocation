@@ -1,0 +1,15 @@
+1、构建入参转换函数 trans_param，生成 param list 作为 get_points 函数入参，入参数据如下
+单条数据：[ beacon_x, beacon_y, dis_radius, true_angle, to_past_time, messure_angle ]
+n条数据：[[ x1, y1, r1, m_a1, t1, t_a1], ... ,[ xn, yn, rn, m_an, tn, t_an]]
+
+2、Points 和 Score 计算 py2c++，直接以 1 中的 param list 格式作为入参，以 3 中的 result list 作为最终点/得分的返回值
+
+3、构建 get_points 返回值转换函数 trans_result，从返回的 result list 中提取点坐标等信息，返回值数据如下
+（1）所有交点的坐标 list 
+	[[ p1.x  p1.y         22.         13.          7.5          6.        ]
+					...
+ 	 [ pn.x  pn.y         22.         13.          7.5          6.        ]]
+（2）所有交点的得分 list
+	[s1 s2 ... sn]
+
+4、Qt 接收 result list 将信息同步至 ui 

@@ -1,0 +1,6 @@
+.idea/*
+.vscode/*
+data/*
+tools/*
+project/*
+__pycache__

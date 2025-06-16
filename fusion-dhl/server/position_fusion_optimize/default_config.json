@@ -1,0 +1,14 @@
+{
+  "traj_freq": 20,
+  "map_dpi": 2.5,
+  "n_iterations": 50,
+  "pos_prior_loss": 1,
+  "pos_prior_weight": 200,
+  "scale_reg_weight": 5,
+  "scale_interval": 100,
+  "bias_reg_weight": 200,
+  "bias_interval": 100,
+  "scale": "active",
+  "bias": "active",
+  "type": "ronin"
+}
